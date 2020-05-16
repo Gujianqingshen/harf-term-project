@@ -1,0 +1,213 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>网页表格设计</title>
+	<style>
+		<!--
+		a{text-decoration:none;
+		  color:black;}
+		.nameSequence{
+         /* 定义首字母序列*/
+			width: 1200px;
+			height: 35px;
+			background-color: #D0D0D0;
+			margin: 20px 0;
+			border: 1px solid white;
+			line-height: 30px;padding: 10px 10px;}
+		.nameSequence a{
+        /*定义首字母链接样式*/
+		color: #2F2F2F;
+		font-size: 14px;}
+	    .nameSequence td{
+/*			定义单元格样式*/
+			border: 1px solid white;
+			;width:30px;height:30px;
+			text-align: center;
+			margin-left: 10px;
+			float: left;}
+		.workGroups{
+/*			定义分组样式*/
+			width: 1400px;
+			height:50px;
+			background-color: #2B2B2B;}
+		.workGroups td{
+/*			分组单元格样式*/
+			border: 1px solid white;;
+			width:200px;height:25px;
+			text-align: center;
+			margin-left: 20px;
+			margin-top: 5px;
+			float: left;
+			padding-top:10px;}
+		.workGroups a
+		{color:#F4F4F4;
+		font-size: 16px;}
+		.ID{
+/*			定义A到Z单元格样式*/
+			width: 600px;
+			height: 30px;
+			background-color: #2F2F2F;
+			margin-top: 20px;
+			margin-bottom: 40px; 
+			color: #E4E4E4;
+			font-size: 20px;
+			padding:10px 0 5px 40px;}
+		.information{
+/*			定义人员小组信息*/
+			border:solid 2px;
+			border-collapse: collapse;
+			margin: 0 auto;width:600px;
+			text-align: center;
+			font-family: Constantia, "Lucida Bright", "DejaVu Serif",  "serif";}
+		thead{
+/*			表格样式*/
+			background-color: #93E0F8;}
+		tbody{border: #030;}
+		.information tr td{border:solid thin;height: 1.5em;padding: 0;}
+		a:hover{
+/*			鼠标停留在a链接上样式设置*/
+			border-bottom: 2px solid #00a4ff;
+			color: #00a4ff;}
+		tfoot{background-color: #C4CCFF;}
+		-->
+	</style>
+</head>
+
+<body>
+	<div class="nameSequence">
+		<section>
+			<table>
+				<tr>
+					 <!--内部链接开始-->
+					<td><a href="#A">A</a></td><td><a href="#B">B</a></td><td><a href="#C">C</a></td><td><a href="#D">D</a></td><td><a href="#E">E</a></td><td><a href="#F">F</a></td><td><a href="#G">G</a></td><td><a href="#H">H</a></td><td><a href="#I">I</a></td><td><a href="#J">J</a></td><td><a href="#K">K</a></td><td><a href="#L">L</a></td><td><a href="#M">M</a></td><td><a href="#N">N</a></td><td><a href="#O">O</a></td><td><a href="#P">P</a></td><td><a href="#Q">Q</a></td><td><a href="#R">R</a></td><td><a href="#S">S</a></td><td><a href="#T">T</a></td><td><a href="#U">U</a></td><td><a href="#V">V</a></td><td><a href="#W">W</a></td><td><a href="#X">X</a></td><td><a href="#Y">Y</a></td><td><a href="#Z">Z</a></td>
+					 <!--内部链接结束-->
+				</tr>
+			</table>
+		</section>
+	</div>
+		<div class="workGroups">
+			<table>
+				<tr>
+                            <!--外部链接开始-->
+					<td><a href="#All goups">All goups</a></td>
+					<td><a href="#University Management">University Management</a></td>
+					<td><a href="#Lecture Art And Design">Lecture Art And Design</a></td>
+					<td><a href="Lecture Music">Lecture Music</a></td>
+					<td><a href="Administration">Administration</a></td>
+					<td><a href="Head Of Workshops">Head Of Workshops</a></td>
+					          <!--外部链接结束-->
+				</tr>
+			</table>
+		</div>
+		<div class="ID" id="A">
+			A
+	    </div>
+<div>
+	<table  class="information">
+		<thead>
+			<tr>
+			<th rowspan="2">姓名</th>
+			<th rowspan="2">工作小组</th>
+			<th colspan="2">联系方式</th>
+	       </tr>
+		</thead>
+		<tbody>
+			<tr>
+			<td>Martin Abendroth</td> <td>A</td> <td>Tel:136000000 <a href="mailto:132456@qq.com">通过邮件联系我</a></td>
+		    </tr>
+			<tr>
+				<td>Johanna Ahlert</td> <td>A</td> <td>Tel:132000000  <a href="mailto:132456@qq.com">通过邮件联系我</a></td>
+			</tr>
+			<tr>
+				<td>Theresa Albig</td> <td>A</td> <td>Tel:1350000000 <a href="mailto:132456@qq.com">通过邮件联系我</a></td>
+			</tr>
+		</tbody>
+		<tfoot>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</tfoot>
+	</table>
+</div>
+	    <div class="ID" id="B">
+			B
+	    </div>
+	<div></div>
+	    <div class="ID" id="C">
+			C
+	    </div>
+	    <div class="ID" id="D">
+			D
+	    </div>
+	    <div class="ID" id="E">
+			E
+	    </div>
+	    <div class="ID" id="F">
+			F
+	    </div>
+	   <div class="ID" id="G">
+		    G
+	    </div>
+	    <div class="ID" id="H">
+			H
+	    </div>
+	    <div class="ID" id="I">
+			I
+	    </div>
+	    <div class="ID" id="J">
+			J
+	    </div>
+	    <div class="ID" id="K">
+			K
+	    </div>
+	    <div class="ID" id="L">
+			L
+	    </div>
+	    <div class="ID" id="M">
+			M
+	    </div>
+	    <div class="ID" id="N">
+			N
+	    </div>
+	    <div class="ID" id="O">
+			O
+	    </div>
+	    <div class="ID" id="P">
+			P
+	    </div>
+	    <div class="ID" id="Q">
+			Q
+	    </div>
+	    <div class="ID" id="R">
+			R
+	    </div>
+	    <div class="ID" id="S">
+			S
+	    </div>
+	    <div class="ID" id="T">
+			T
+	    </div>
+     	<div class="ID" id="U">
+			U
+	    </div>
+     	<div class="ID" id="V">
+	  		V
+	    </div>
+	    <div class="ID" id="W">
+			W
+	    </div>
+	    <div class="ID" id="X">
+			X
+	    </div>
+	    <div class="ID" id="Y">
+			Y
+	    </div>
+	    <div class="ID" id="Z">
+			Z
+	    </div>
+
+</body>
+</html>
